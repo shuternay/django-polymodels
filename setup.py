@@ -16,6 +16,7 @@ setup(
     author_email='charette.s@gmail.com',
     install_requires=(
         'Django>=1.11',
+        'six',
     ),
     packages=find_packages(exclude=['tests', 'tests.*']),
     include_package_data=True,
